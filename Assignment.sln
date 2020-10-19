@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30503.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assignment", "Assignment\Assignment.csproj", "{A8392F3E-730F-49B2-B7A0-D08CAAC53691}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assignment.Infrastructure", "Assignment.Infrastructure\Assignment.Infrastructure.csproj", "{C0C5BB23-D345-4C0B-9D6A-F958C5DD02BF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{FFE82CAD-BA95-416D-87D5-BABCF5A4593B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoginModule", "LoginModule\LoginModule.csproj", "{1D937789-CD60-49E5-997F-8D119681BDFD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assignment.BO", "Assignment.BO\Assignment.BO.csproj", "{F029B688-C7D5-4F61-A6FD-696DC27215C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssignmentBLL", "Assignment.BLL\AssignmentBLL.csproj", "{A02D8EF2-7A47-442D-9D8E-9086DC139DD1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DashboardModule", "Dashboard\DashboardModule.csproj", "{BAC1B5B3-B592-491D-A242-709FA26EA304}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A8392F3E-730F-49B2-B7A0-D08CAAC53691}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8392F3E-730F-49B2-B7A0-D08CAAC53691}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8392F3E-730F-49B2-B7A0-D08CAAC53691}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8392F3E-730F-49B2-B7A0-D08CAAC53691}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0C5BB23-D345-4C0B-9D6A-F958C5DD02BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0C5BB23-D345-4C0B-9D6A-F958C5DD02BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0C5BB23-D345-4C0B-9D6A-F958C5DD02BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0C5BB23-D345-4C0B-9D6A-F958C5DD02BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D937789-CD60-49E5-997F-8D119681BDFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D937789-CD60-49E5-997F-8D119681BDFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D937789-CD60-49E5-997F-8D119681BDFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D937789-CD60-49E5-997F-8D119681BDFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F029B688-C7D5-4F61-A6FD-696DC27215C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F029B688-C7D5-4F61-A6FD-696DC27215C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F029B688-C7D5-4F61-A6FD-696DC27215C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F029B688-C7D5-4F61-A6FD-696DC27215C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A02D8EF2-7A47-442D-9D8E-9086DC139DD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A02D8EF2-7A47-442D-9D8E-9086DC139DD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A02D8EF2-7A47-442D-9D8E-9086DC139DD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A02D8EF2-7A47-442D-9D8E-9086DC139DD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAC1B5B3-B592-491D-A242-709FA26EA304}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAC1B5B3-B592-491D-A242-709FA26EA304}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAC1B5B3-B592-491D-A242-709FA26EA304}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAC1B5B3-B592-491D-A242-709FA26EA304}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1D937789-CD60-49E5-997F-8D119681BDFD} = {FFE82CAD-BA95-416D-87D5-BABCF5A4593B}
+		{BAC1B5B3-B592-491D-A242-709FA26EA304} = {FFE82CAD-BA95-416D-87D5-BABCF5A4593B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5A5FF094-8A40-47E8-8538-424B34809E8A}
+		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.Data.6.0.1304.0\lib\NET45
+	EndGlobalSection
+EndGlobal
